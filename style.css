@@ -1,0 +1,138 @@
+/* Colors and Fonts */
+
+body {
+	background-color: rgba(253, 241, 184, 0.25);
+	color: rgb(80, 80, 70);
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+h1 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	letter-spacing: 13px;
+}
+
+h2 {
+	color: #649263;
+	font-size: 24px;
+	font-weight: 450;
+	letter-spacing: 1.5px;
+}
+
+a {
+	text-decoration: none;
+	color: #E6B2BD;
+	transition: color 0.3 ease;
+	font-weight: 500;
+}
+
+a:hover {
+	color: rgba(30, 30, 30, 0.8);
+}
+
+/* Custom design with class */
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 300px;
+	}
+	#page-content {
+		margin-left: 150px;
+	}
+	#sidebar {
+		width: 150px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 30px 80px 50px 80px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.card-white:hover {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.img-circle {
+	border-radius: 50%;
+	padding: 10px 0px 10px 0px;
+}
+
+.btn-purple {
+	background-color: #E6B2BD;
+	padding: 7px 10px;
+	border-radius: 4px;
+	color: white;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1)
+}
+
+.btn-purple:hover {
+	background-color: rgba(30,30,30,0.8);
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.sidebar {
+	position: fixed;
+	width: 200px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: white;
+	border-color: #E6B2BD;
+	border-right-style: solid;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.page-content {
+	margin-left: 200px;
+}
+
+.list-sizing {
+	font-size: 21px;
+	letter-spacing: 1px;
+	line-height: 105px;
+}
+
+/*Specific design with id*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
